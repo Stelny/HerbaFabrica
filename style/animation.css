@@ -1,0 +1,22 @@
+
+@-webkit-keyframes plant {
+  from {
+    -webkit-transform: rotateZ(-3deg);
+            transform: rotateZ(-3deg);
+  }
+  to {
+    -webkit-transform: rotateZ(3deg);
+            transform: rotateZ(3deg);
+  }
+}
+
+
+
+
+
+.listik {
+    -webkit-animation:  plant 1s ease infinite alternate;
+    animation:  plant 1s ease infinite alternate;
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+}
