@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="37" viewBox="0 0 26 37">
+  <defs>
+    <pattern id="pattern" width="1" height="1" patternTransform="matrix(-1, 0, 0, 1, 52, 0)" viewBox="0 0 26 37">
+      <image preserveAspectRatio="none" width="26" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAlCAYAAABcZvm2AAABuElEQVRIibWWyytFQRzHP5crj41HsiN7VvIoS2yUS1m5/gDdrlfYYCERpeQdC2t2Ntioay9lJwsLYiUUGwqJhjk65cyc45yfz+7Md8759JuZMzOx2lQrwCNQyDcTwDTCZAFnLoliClj9D9GtR3sfkJIWdQHvHtkGMCMpugHiwKtHPg7MSokccoEejz5jwIekSLFp6fssKVIMG/rmA1uSokUgBqx7ZN16GEckRA69QIkhmwcapESKByBtyI50dQtAUVQR+n+yMQQcSIgUecCaJa8HqiREL0C/XiQmTvVQNkcRuVGyFUuekRIpBn1yVdkh0BZVpCgGksCyIW8C9oBG9eAcfFEpBe4s38hEqcjNvZ67dkPeIiVSLAG7huwiLiTxO0YSkhWZqFH3EomKbNWUOYskakU2Sdq9EsNWVA5cWvJfW1WYinaAayDbkHsu8TAVdRra1TDWAScSItuc5Bjuh18EHbqkjyRmkwQVDQDbljzQ3cFPVGHZnRO6kmMJ0ZWhfRTYDyIIIjLNyRsw9xeJTfRkeaf6rxKTqBIoMPRXd4VzKZHX1jKpJ97vrmDE74dVB1lH2I//AHwCjmxIkV82ABwAAAAASUVORK5CYII="/>
+    </pattern>
+  </defs>
+  <rect id="Ico_arrow" width="26" height="37" fill="url(#pattern)"/>
+</svg>

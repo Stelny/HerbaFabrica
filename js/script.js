@@ -15,4 +15,23 @@ $(document).ready(function(){
 
 
   })
+
+
+  $(".map-left-heading").click(function(){
+    $('#firemni-herbashare').removeClass("open");
+    if ($("#map-left").hasClass("open")) {
+        $("#map-left").removeClass("open");
+    } else {
+        $("#map-left").addClass("open");
+    }
+  })
+
+  $(".firma-heading").click(function(){
+    $('#map-left').removeClass("open");
+    if ($("#firemni-herbashare").hasClass("open")) {
+        $("#firemni-herbashare").removeClass("open");
+    } else {
+        $("#firemni-herbashare").addClass("open");
+    }
+  })
 })
