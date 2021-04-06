@@ -1073,9 +1073,161 @@ iframe {
 .recepty-content {
 	padding: 100px 0px;
 }
+.recepty-item h2 {
+	color: #FB5C29;
+	font-size: 48px;
+	padding-bottom: 20px;
+}
+.recepty-item__content {
+	padding-left: 25px;
+	color: #305F43;
+}
+.recepty-item__content p {
+	color: #305F43;
+}
+.recepty-item__content h3 {
+	color: #FB5C29;
+	font-size: 16px;
+}
+.recepty-item__content ul {
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+	padding: 0;
+}
+.recepty-item__content ul li {
+	display: flex;
+}
+.recepty-item__content ul li span {
+	display: block;
+	width: 50%;
+	color: #305F43;
+}
+.suroviny {
+	width: 70%;
+}
+.recepty-stats {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px 0px;
+}
+.recepty-stats-item {
+	display: flex;
+	font-size: 16px;
+	color: #8CCAA8;
+	line-height: 1;
+	margin: 10px 25px;
+}
+.recepty-stats-text {
+	line-height: 0.75;
+}
+.recepty-stats-item .recepty-stats-text span {
+	font-size: 27px;
+	color: #8CCAA8;
+	display: block;
+}
+.recepty-stats-image {
+	padding-right: 15px;
+}
+.recepty-item {
+	margin-bottom: 65px;
+}
+#recepty {
+	position: relative;
+	z-index: 2;
+}
+@media only screen and (min-width: 1200px) {
+	#recepty:after {
+		content: url(../icons/left-r.svg);
+		position: absolute;
+		left: 0;
+		top: 20%;
+		z-index: -1;
+
+	}
+	#recepty:before{
+		content: url(../icons/right-r.svg);
+		position: absolute;
+		right: 0;
+		top: 40%;
+		z-index: -1;
+
+	}
+}
 
 
+@media only screen and (max-width: 991px) {
+	.recepty-video {
+		padding-bottom: 25px;
+		text-align: left;
+	}
+	.recepty-item__content {
+		padding: 0;
+	}
+	.recepty-content {
+		padding: 25px 0px;
+	}
+	.recepty-item {
+		margin-bottom: 35px;
+	}
+}
 
+#herbahelp {
+	background: url(../images/bcg_herbahelp.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.herbahelp {
+	padding: 100px 0
+}
+#herbahelp .navbar-link {
+	color: white;
+}
+#herbahelp.sub .navbar-navs .navbar-item .navbar-link.active, #herbahelp.sub .navbar-navs .navbar-item .navbar-link:hover {
+	color: #305F43;
+}
+.herbahelp-item-text h2 {
+	font-size: 48px;
+	color: #305F43;
+}
+.herbahelp-item-text {
+	padding-right: 30px;
+}
+.herbahelp-item-text span {
+	font-size: 12px;
+	color: #FA8FB2;
+}
+.herbahelp-item-text p {
+	padding-top: 25px;
+	font-size: 16px;
+	color: #305F43;
+}
+.next_info {
+	padding-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.next_info span {
+	font-size: 20px;
+	color:#305F43;
+	margin-right: 20px;
+}
+.herbahelp-item {
+	margin: 60px 0px;
+}
+.herbahelp-item:first-child {
+	margin-top: 0;
+}
+
+@media only screen and (max-width: 991px) {
+	.herbahelp {
+		padding: 20px 0px;
+	}
+	.herbahelp-item-text {
+		padding: 0;
+	}
+}
 
 
 
